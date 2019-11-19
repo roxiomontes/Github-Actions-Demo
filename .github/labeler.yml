@@ -1,0 +1,12 @@
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
+  
+# Add '@domain/src' label to any change within the 'src' dir
+@domain/src:
+  - src/*
+  - src/**/*
+
+# Add 'test' label to any change to *.spec.js files within the source dir
+test:
+  - src/**/*.test.js
