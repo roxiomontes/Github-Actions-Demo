@@ -1,4 +1,6 @@
 # Add 'repo' label to any root file changes
+documentation:
+  - '**/*.md'
 repo:
   - ./*
   
