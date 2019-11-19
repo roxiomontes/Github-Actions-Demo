@@ -3,7 +3,7 @@ repo:
   - ./*
   
 # Add '@domain/src' label to any change within the 'src' dir
-@domain/src:
+domain/src:
   - src/*
   - src/**/*
 
